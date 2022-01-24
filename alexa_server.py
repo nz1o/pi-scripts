@@ -3,9 +3,9 @@ This script will create a Flask application listening for commands from your cus
 
 Important Notes:
 
-    1. This script is only HALF of what is required to make this work, you must also create a custom Alexa Skill in 
-       your Amazon account at https://developer.amazon.com/alexa/console/ask.  This script is expecting your Alexa Skill 
-       to have a custom Intent named "ShackPower" with an Intent Slot named "power_state" and provided value of either ON or OFF.
+    1. This script is only HALF of what is required to make this work, you must also create a custom Alexa Skill.
+       Please see the instructions at https://github.com/nz1o/pi-scripts/blob/70319c06266f88290cab8f248279f88ece50248a/Alexa%20Server%20README.md
+       for help creating a new Alexa Skill.
        
        There are many videos on YouTube covering how to create your own Alexa Skill - just remember that your skill will NOT be
        Alexa hosted, you will need to select "Provision your own" when asked to choose the method to host your still's backend resources.
